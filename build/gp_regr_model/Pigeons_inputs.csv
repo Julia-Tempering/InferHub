@@ -1,0 +1,17 @@
+first,second
+extended_traces,false
+checked_round,0
+extractor,nothing
+record,"Function[Pigeons.traces, Pigeons.round_trip, Pigeons.log_sum_ratio, Pigeons.timing_extrema, Pigeons.allocation_extrema]"
+multithreaded,false
+show_report,true
+n_chains,10
+variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [1.9166530514443132, 0.8369954632698103, 0.5701573663871942]), Dict{Symbol, Any}(:singleton_variable => [0.189846554952465, 0.31953136089314, 0.27559638912696777]), 10)"
+explorer,nothing
+n_chains_variational,0
+target,StanLogPotential(gp_regr_model)
+n_rounds,12
+exec_folder,nothing
+reference,nothing
+checkpoint,false
+seed,1
