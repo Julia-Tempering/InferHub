@@ -5,12 +5,12 @@ extractor,nothing
 record,"Function[Pigeons.traces, Pigeons.round_trip, Pigeons.log_sum_ratio, Pigeons.timing_extrema, Pigeons.allocation_extrema]"
 multithreaded,false
 show_report,true
-n_chains,10
-variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [-0.6103603406083459, -3.5990391953714744, -0.2285090641132392, -3.7348511732619967, 3.5223296047004014, 1.7776213963155227, -1.4054377322054525, -1.3953158478089567]), Dict{Symbol, Any}(:singleton_variable => [0.10759735528554894, 0.13804687163939997, 0.10246655639571041, 0.13556192138475992, 0.08741788373943535, 0.08672729269835984, 0.17119516415289388, 0.16981649243462688]), 10)"
+n_chains,20
+variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [-0.6080578052282599, -3.5950187125995403, -0.23092525350986162, -3.738777818175549, 3.5236906395022323, 1.7783362145064892, -1.4091120581221395, -1.4041479021554386]), Dict{Symbol, Any}(:singleton_variable => [0.11377698878467787, 0.14823858496595757, 0.1099925695460332, 0.14456093238787876, 0.08534717234723035, 0.0872983748946388, 0.16745716058860735, 0.16969023641847422]), 12)"
 explorer,nothing
 n_chains_variational,0
 target,StanLogPotential(lotka_volterra_model)
-n_rounds,12
+n_rounds,14
 exec_folder,nothing
 reference,nothing
 checkpoint,false

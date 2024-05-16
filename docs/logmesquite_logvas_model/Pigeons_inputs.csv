@@ -5,12 +5,12 @@ extractor,nothing
 record,"Function[Pigeons.traces, Pigeons.round_trip, Pigeons.log_sum_ratio, Pigeons.timing_extrema, Pigeons.allocation_extrema]"
 multithreaded,false
 show_report,true
-n_chains,10
-variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [5.360003839298136, 0.36920525082985184, 0.4028080142898299, -0.3909325189330655, 0.39098928228251145, 0.11419363614569898, -0.590101720020937, -1.090995241066432]), Dict{Symbol, Any}(:singleton_variable => [0.17859461406646723, 0.30002434266916334, 0.31484829992165375, 0.24057180945010223, 0.3297143800174334, 0.13058238152438728, 0.13141932849306961, 0.1143928077586917]), 10)"
+n_chains,20
+variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [5.353119815138127, 0.3749875057143847, 0.3967453903125174, -0.3824698457307881, 0.3953179807828857, 0.10733069903677676, -0.5814817541330205, -1.083730920653493]), Dict{Symbol, Any}(:singleton_variable => [0.17992146354988484, 0.29655826617049946, 0.3111092247881287, 0.23982022250283763, 0.32758693238040265, 0.12554451338913183, 0.13490166899616807, 0.11523960475061346]), 12)"
 explorer,nothing
 n_chains_variational,0
 target,StanLogPotential(logmesquite_logvas_model)
-n_rounds,12
+n_rounds,14
 exec_folder,nothing
 reference,nothing
 checkpoint,false
