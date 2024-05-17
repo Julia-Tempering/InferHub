@@ -5,13 +5,13 @@ extractor,nothing
 record,"Function[Pigeons.traces, Pigeons.round_trip, Pigeons.log_sum_ratio, Pigeons.timing_extrema, Pigeons.allocation_extrema]"
 multithreaded,false
 show_report,true
-n_chains,20
-variational,"GaussianReference(Dict{Symbol, Any}(:singleton_variable => [6.366689919783622, 4.988909119724185, 4.092271679835748, 4.796050012398242, 3.857775202011374, 4.100788091180272, 6.3476120271434775, 4.957739474291298, 4.48295457810853, 0.783595793554875]), Dict{Symbol, Any}(:singleton_variable => [5.542807965709642, 4.644811602245427, 5.154589108929072, 4.8948499912119425, 4.620504701659414, 4.797448635196788, 4.9552127506829775, 5.252394590759262, 3.369106530714582, 1.197558491608236]), 12)"
+n_chains,10
+variational,"GaussianReference(Dict{Symbol, Any}(), Dict{Symbol, Any}(), 15)"
 explorer,nothing
 n_chains_variational,0
 target,StanLogPotential(eight_schools_centered_model)
-n_rounds,14
-exec_folder,nothing
+n_rounds,17
+exec_folder,/scratch/st-alexbou-1/abc/InferHub-infra/work/71/853b653976e339d8840c5c9a2dd7dc/results/all/2024-05-16-14-12-29-F2WpYmxs
 reference,nothing
-checkpoint,false
+checkpoint,true
 seed,1
